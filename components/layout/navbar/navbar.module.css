@@ -1,0 +1,64 @@
+.navContainer {
+    background-color: white;
+    padding: 1.5rem 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 5%);
+}
+
+.navToggle {
+    border: none !important;
+}
+
+.navToggle:focus {
+    box-shadow: none !important;
+}
+
+.navItems1,
+.navItems2 {
+    gap: 2rem;
+    padding: 2rem;
+    align-items: stretch;
+}
+
+@media (min-width: 992px) {
+    .navItems1,
+    .navItems2 {
+        padding: 0;
+        align-items: center;
+    }
+}
+
+.navItems1 a,
+.navItems2 a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.navItems1 a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0px;
+    left: 0;
+    background-color: #0064eb;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navItems1 a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navItems1 a:hover {
+    color: #0064eb;
+}
+
+.navItems2 a {
+    font-weight: 700;
+}
