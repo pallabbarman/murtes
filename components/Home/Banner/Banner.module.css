@@ -1,0 +1,37 @@
+.banner {
+    background-image: url("../../../public/images/banner/bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.bannerContent {
+    height: 650px;
+}
+
+.bannerItems h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    max-width: 13ch;
+    padding-bottom: 1rem;
+}
+
+.bannerItems span {
+    font-style: italic;
+    color: #0065ec;
+}
+
+.bannerItems p {
+    font-size: 1rem;
+    max-width: 35ch;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .bannerItems h1 {
+        font-size: 3.5rem;
+    }
+    .bannerItems p {
+        font-size: 1.5rem;
+    }
+}
