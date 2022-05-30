@@ -1,0 +1,55 @@
+.template {
+    background: #f6fcff url("../../../public/images/template/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.templateImg {
+    padding: 0 4rem;
+}
+
+.templateItems {
+    text-align: center;
+}
+
+.templateItems h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.templateItems h1:nth-child(3) {
+    padding-bottom: 2rem;
+}
+
+.templateItems span {
+    font-style: italic;
+    color: #005cea;
+}
+
+.templateItems p {
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .templateItems h1 {
+        font-size: 3rem;
+    }
+    .templateItems p {
+        font-size: 1.2rem;
+    }
+}
+
+.templateFooter {
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.templateFooterItems2 p {
+    text-align: start;
+    font-size: 1rem;
+    max-width: 35ch;
+    font-weight: 600;
+    color: #72839a;
+}
