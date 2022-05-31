@@ -1,0 +1,97 @@
+.team {
+    padding: 5rem 0;
+}
+
+.teamHeader {
+    text-align: center;
+}
+
+.teamHeader h1 {
+    font-size: 1.8rem;
+    margin: 0 auto;
+    max-width: 15ch;
+    font-weight: 700;
+}
+
+.teamHeader p {
+    padding-top: 1.5rem;
+    margin: 0 auto;
+    max-width: 50ch;
+    font-size: 1.1rem;
+    color: #72839a;
+}
+
+.teamHeader span {
+    font-style: italic;
+    color: #005cea;
+}
+
+.teamBody {
+    background-image: url("../../../public/images/team/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teamCard {
+    width: 22rem;
+    margin: 1rem;
+    border: 3px solid #e9f0fb;
+}
+
+.cardBody {
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardBody:hover {
+    background: linear-gradient(21deg, #005cea 0%, #00c5fb 100%);
+    color: #fff;
+}
+
+.cardBody h3 {
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cardBody p {
+    font-size: 0.8rem;
+}
+
+.cardPlayBtn {
+    background: linear-gradient(21deg, #005cea 0%, #00c5fb 100%);
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cardPlayBtn div {
+    height: 20px;
+    width: 20px;
+    border-top: 10px solid transparent;
+    border-left: 20px solid #fff;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+
+@media screen and (min-width: 768px) {
+    .teamHeader h1 {
+        font-size: 3rem;
+    }
+    .cardBody h3 {
+        font-size: 1.5rem;
+    }
+    .cardBody p {
+        font-size: 1.1rem;
+    }
+}
