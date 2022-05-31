@@ -1,0 +1,32 @@
+.success {
+    padding: 5rem 0;
+}
+
+.successImg {
+    padding: 1rem 2rem;
+}
+
+.successDetails {
+    padding-top: 1rem;
+}
+
+.successDetails h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.successDetails p {
+    font-size: 1rem;
+    max-width: 48ch;
+    font-weight: 500;
+    color: #72839a;
+}
+
+@media screen and (min-width: 769px) {
+    .successDetails h1 {
+        font-size: 2.8rem;
+    }
+    .successDetails p {
+        font-size: 1.1rem;
+    }
+}

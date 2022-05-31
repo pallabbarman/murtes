@@ -10,7 +10,7 @@ const Template = () => {
                 <div className="row">
                     <div className={`col-lg-6 ${classes.templateImg}`}>
                         <Image
-                            src="/images/template/template.png"
+                            src="/images/home/template/template.png"
                             alt="person"
                             width={360}
                             height={400}
@@ -34,7 +34,7 @@ const Template = () => {
                         <div className={` row ${classes.templateFooter}`}>
                             <div className="col-md-4">
                                 <Image
-                                    src="/images/template/tmp.jpg"
+                                    src="/images/home/template/tmp.jpg"
                                     alt="person"
                                     width={250}
                                     height={150}

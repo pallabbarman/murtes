@@ -6,17 +6,17 @@ const Team = () => {
     const teamData = [
         {
             name: "Felicia Becker",
-            img: "/images/team/member1.jpg",
+            img: "/images/home/team/member1.jpg",
             position: "Financial Manager",
         },
         {
             name: "Randall Rios",
-            img: "/images/team/member2.jpg",
+            img: "/images/home/team/member2.jpg",
             position: "Financial Manager",
         },
         {
             name: "Casey Jones",
-            img: "/images/team/member3.jpg",
+            img: "/images/home/team/member3.jpg",
             position: "Executive Officer",
         },
     ];

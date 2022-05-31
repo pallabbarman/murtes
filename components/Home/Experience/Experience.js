@@ -38,7 +38,7 @@ const Experience = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 mt-5">
                             <Image
-                                src="/images/experience/exp.jpg"
+                                src="/images/home/experience/exp.jpg"
                                 alt="exp"
                                 width={500}
                                 height={500}
