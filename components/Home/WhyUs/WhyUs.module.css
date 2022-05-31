@@ -1,0 +1,50 @@
+.whyUs {
+    padding: 5rem 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+        url("../../../public/images/whyUs/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.whyUsContent1 h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.whyUsContent1 h5 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    max-width: 36ch;
+}
+
+.whyUsContent1 p {
+    max-width: 48ch;
+}
+
+.whyUsCard {
+    background-color: rgb(255 255 255 / 13%);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.whyUsCard:hover {
+    background: linear-gradient(21deg, #005cea 0%, #00c5fb 100%);
+}
+
+.whyUsCard h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.whyUsCard p {
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+    .whyUsContent1 h1 {
+        font-size: 3rem;
+    }
+}
