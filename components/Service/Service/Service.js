@@ -1,6 +1,7 @@
 import React from "react";
 import Advice from "../Advice/Advice";
 import ServiceBanner from "../ServiceBanner/ServiceBanner";
+import Services from "../Services/Services";
 import Success from "../Success/Success";
 
 const Service = () => {
@@ -8,6 +9,7 @@ const Service = () => {
         <>
             <ServiceBanner />
             <Success />
+            <Services />
             <Advice />
         </>
     );

@@ -1,0 +1,65 @@
+.services {
+    padding: 5rem 0;
+}
+
+.servicesContents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicesItems {
+    width: 24rem;
+}
+
+.servicesCard {
+    border: 1px solid #e9f0fb;
+    background-color: #f6fcff;
+    display: flex;
+    gap: 20px;
+    padding: 2rem;
+    transition: all 300ms linear 0ms;
+}
+
+.servicesCard:hover {
+    background-color: #0064eb;
+    color: #fff;
+}
+
+.servicesCard div:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.servicesCard div:nth-child(2) h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.servicesCard div:nth-child(2) p {
+    font-size: 0.9rem;
+}
+
+.servicesCard div:nth-child(2) h5 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.servicesCard div:nth-child(2) h5:hover {
+    color: #fff;
+}
+
+@media screen and (min-width: 769px) {
+    .servicesCard div:nth-child(1) {
+        font-size: 1.7rem;
+    }
+    .servicesCard div:nth-child(2) h3 {
+        font-size: 1.7rem;
+    }
+    .servicesCard div:nth-child(2) p {
+        font-size: 1.1rem;
+    }
+    .servicesCard div:nth-child(2) h5 {
+        font-size: 1.2rem;
+    }
+}
